@@ -1,37 +1,57 @@
-<!DOCTYPE html>
+<!doctype html>
+<!-- The Time Machine GitHub pages theme was designed and developed by Jon Rohan, on Feb 7, 2012. -->
+<!-- Follow him for fun. http://twitter.com/jonrohan. Tail his code on https://github.com/jonrohan -->
 <html>
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
 
-  <head>
-    <meta charset='utf-8'>
-    <meta http-equiv="X-UA-Compatible" content="chrome=1">
-    <meta name="description" content="Open-falcon.GitHub.io : open-falcon">
+  <link rel="stylesheet" href="stylesheets/stylesheet.css" media="screen">
+  <link rel="stylesheet" href="stylesheets/pygment_trac.css">
+  <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
+  <script type="text/javascript" src="javascripts/script.js"></script>
 
-    <link rel="stylesheet" type="text/css" media="screen" href="stylesheets/stylesheet.css">
+  <title>Open-falcon.GitHub.io</title>
+  <meta name="description" content="open-falcon">
 
-    <title>Open-falcon.GitHub.io</title>
-  </head>
+  <meta name="viewport" content="width=device-width,initial-scale=1">
 
-  <body>
+</head>
 
-    <!-- HEADER -->
-    <div id="header_wrap" class="outer">
-        <header class="inner">
-          <a id="forkme_banner" href="https://github.com/open-falcon">View on GitHub</a>
+<body>
 
-          <h1 id="project_title">Open-falcon.GitHub.io</h1>
-          <h2 id="project_tagline">open-falcon</h2>
-
-        </header>
-    </div>
-
-    <!-- MAIN CONTENT -->
-    <div id="main_content_wrap" class="outer">
-      <section id="main_content" class="inner">
-        <h1>
-<a id="wiki" class="anchor" href="#wiki" aria-hidden="true"><span class="octicon octicon-link"></span></a>Wiki</h1>
+  <div class="wrapper">
+    <header>
+      <h1 class="title">Open-falcon.GitHub.io</h1>
+    </header>
+    <div id="container">
+      <p class="tagline">open-falcon</p>
+      <div id="main" role="main">
+        <div class="download-bar">
+        <div class="inner">
+          <a href="https://github.com/open-falcon" class="code">View Open-falcon.GitHub.io on GitHub</a>
+        </div>
+        <span class="blc"></span><span class="trc"></span>
+        </div>
+        <article class="markdown-body">
+          <h1>
+<a id="doc" class="anchor" href="#doc" aria-hidden="true"><span class="octicon octicon-link"></span></a>Doc</h1>
 
 <ul>
-<li><a href="https://github.com/open-falcon/doc/wiki">https://github.com/open-falcon/doc/wiki</a></li>
+<li><a href="https://github.com/open-falcon/doc/wiki">Wiki</a></li>
+<li><a href="https://github.com/open-falcon/doc/wiki/Open-Falcon%E4%BB%8B%E7%BB%8D">Open-Falcon 详细介绍</a></li>
+</ul>
+
+<h1>
+<a id="quick-install" class="anchor" href="#quick-install" aria-hidden="true"><span class="octicon octicon-link"></span></a>Quick Install</h1>
+
+<p>Open-Falcon，整体可以分为两部分，即绘图组件、告警组件。其中：</p>
+
+<ul>
+<li>
+<a href="https://github.com/open-falcon/doc/wiki/Install-Graph-components">安装绘图组件</a> 负责数据的采集、收集、存储、归档、采样、查询、展示（Dashboard/Screen）等功能，可以单独工作，作为time-series data的一种存储展示方案。</li>
+<li>
+<a href="https://github.com/open-falcon/doc/wiki/Install-Judge-components">安装告警组件</a> 负责告警策略配置（portal）、告警判定（judge）、告警处理（alarm/sender）、用户组管理（uic）等，可以单独工作。</li>
 </ul>
 
 <h1>
@@ -42,8 +62,6 @@
 <p>监控系统业界有很多杰出的开源监控系统。我们在早期，一直在用zabbix，不过随着业务的快速发展，以及互联网公司特有的一些需求，现有的开源的监控系统在性能、扩展性、和用户的使用效率方面，已经无法支撑了。</p>
 
 <p>因此，我们在过去的一年里，从互联网公司的一些需求出发，从各位SRE、SA、DEVS的使用经验和反馈出发，结合业界的一些大的互联网公司做监控，用监控的一些思考出发，设计开发了小米的监控系统：open-falcon。</p>
-
-<p><strong>open-falcon的目标是做最开放、最好用的互联网企业级监控产品。</strong></p>
 
 <h1>
 <a id="highlights-and-features" class="anchor" href="#highlights-and-features" aria-hidden="true"><span class="octicon octicon-link"></span></a>Highlights and features</h1>
@@ -59,19 +77,36 @@
 </ul>
 
 <h1>
-<a id="committers" class="anchor" href="#committers" aria-hidden="true"><span class="octicon octicon-link"></span></a>Committers</h1>
+<a id="screenshots" class="anchor" href="#screenshots" aria-hidden="true"><span class="octicon octicon-link"></span></a>Screenshots</h1>
+
+<p><strong>Dashboard Homepage</strong></p>
+
+<p><img src="https://raw.githubusercontent.com/open-falcon/doc/master/screenshots/falcon-homepage.png" alt="Dashboard Homepage"></p>
+
+<p><strong>Dashboard Screen</strong></p>
+
+<p><img src="https://raw.githubusercontent.com/open-falcon/doc/master/screenshots/falcon-screen.png" alt="Dashboard Screen"></p>
+
+<p><strong>Dashboard 大图</strong></p>
+
+<p><img src="https://raw.githubusercontent.com/open-falcon/doc/master/screenshots/falcon-big-chart.png" alt="Dashboard Big chart"></p>
+
+<p><strong>Portal host group</strong></p>
+
+<p><img src="https://raw.githubusercontent.com/open-falcon/doc/master/screenshots/portal-hostgrp.png" alt="Portal host group"></p>
+
+<p><strong>Portal template</strong></p>
+
+<p><img src="https://raw.githubusercontent.com/open-falcon/doc/master/screenshots/portal-tpl.png" alt="Portal template"></p>
+
+<h1>
+<a id="contributors" class="anchor" href="#contributors" aria-hidden="true"><span class="octicon octicon-link"></span></a>Contributors</h1>
 
 <ul>
 <li>laiwei:  <a href="https://github.com/laiwei">https://github.com/laiwei</a>     来炜没睡醒@微博 / hellolaiwei@微信</li>
 <li>秦晓辉: <a href="https://github.com/ulricqin">https://github.com/ulricqin</a>  Ulricqin@微博 cnperl@微信</li>
 <li>yubo: <a href="https://github.com/yubo">https://github.com/yubo</a> x80386@微信</li>
 <li>聂安: <a href="https://github.com/niean">https://github.com/niean</a> </li>
-</ul>
-
-<h1>
-<a id="contributors" class="anchor" href="#contributors" aria-hidden="true"><span class="octicon octicon-link"></span></a>Contributors</h1>
-
-<ul>
 <li>QQ群：373249123</li>
 </ul>
 
@@ -82,17 +117,26 @@
 Licensed under the Apache License,
 Version 2.0:
 <a href="http://www.apache.org/licenses/LICENSE-2.0">http://www.apache.org/licenses/LICENSE-2.0</a></p>
-      </section>
+        </article>
+      </div>
     </div>
+    <footer>
+      <div class="owner">
 
-    <!-- FOOTER  -->
-    <div id="footer_wrap" class="outer">
-      <footer class="inner">
-        <p>Published with <a href="https://pages.github.com">GitHub Pages</a></p>
-      </footer>
-    </div>
+      <p><a href="https://github.com/open-falcon" class="avatar"><img src="https://avatars1.githubusercontent.com/u/9738246?v=3&amp;s=60" width="48" height="48"></a>View <a href="https://github.com/open-falcon">open-falcon</a> on <a href="https://www.github.com">GitHub</a></p>
 
-    
+      </div>
+      <div class="creds">
+        <small>This page generated using <a href="https://pages.github.com/">GitHub Pages</a><br>theme by <a href="https://twitter.com/jonrohan/">Jon Rohan</a></small>
+      </div>
+    </footer>
+  </div>
+  <div class="current-section">
+    <a href="#top">Scroll to top</a>
+    <a href="https://github.com/open-falcon/open-falcon.github.io/tarball/master" class="tar">tar</a><a href="https://github.com/open-falcon/open-falcon.github.io/zipball/master" class="zip">zip</a><a href="" class="code">source code</a>
+    <p class="name"></p>
+  </div>
 
-  </body>
+  
+</body>
 </html>
