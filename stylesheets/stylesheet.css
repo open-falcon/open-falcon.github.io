@@ -53,8 +53,8 @@ body {
   color:#373737;
   background: #212121;
   font-size: 14px;
-  font-family: 'Myriad Pro', Calibri, Helvetica, Arial, sans-serif;
-  //font-family: 'verdana', 'Microsoft YaHei', 'Consolas', 'Deja Vu Sans Mono', 'Bitstream Vera Sans Mono';
+  //font-family: 'Myriad Pro', Calibri, Helvetica, Arial, sans-serif;
+  font-family: 'verdana', 'Microsoft YaHei', 'Consolas', 'Deja Vu Sans Mono', 'Bitstream Vera Sans Mono';
   line-height: 2.0;
   -webkit-font-smoothing: antialiased;
 }
@@ -310,8 +310,8 @@ Full-Width Styles
 
 #project_tagline {
   color: #fff;
-  font-size: 24px;
-  font-weight: 300;
+  font-size: 16px;
+  font-weight: 400;
   background: none;
   text-shadow: #111 0px 0px 10px;
 }
