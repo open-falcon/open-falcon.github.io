@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="520px" height="80px" viewBox="0 0 520 80" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 41.2 (35397) - http://www.bohemiancoding.com/sketch -->
+    <title>main-nav-bg</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <linearGradient x1="3.061617e-15%" y1="50%" x2="60.4656356%" y2="50%" id="linearGradient-1">
+            <stop stop-color="#317AFF" offset="0%"></stop>
+            <stop stop-color="#538DFF" stop-opacity="0" offset="100%"></stop>
+        </linearGradient>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Desktop-HD" transform="translate(-540.000000, 0.000000)" fill="url(#linearGradient-1)">
+            <g id="header">
+                <polygon id="main-nav-bg" points="564 0 1400 0 1400 80 540 80"></polygon>
+            </g>
+        </g>
+    </g>
+</svg>

@@ -12,46 +12,42 @@ layout: jumbotron
   </div>
 </div>
 
-<div class="newsbar">
-  <a href="http://events.linuxfoundation.org/events/cloudnativecon-and-kubecon-europe">CloudNativeCon Europe 2017</a> (March 29–30) with a dedicated <a href="https://cloudnativeeu2017.sched.com/overview/type/Prometheus">Open-Falcon track</a>.
-</div>
-
-<div class="container">
+<div class="container container-card">
   <div class="row">
-    <div class="col-md-3 col-sm-6 col-xs-12 feature-item">
+    <div class="col-md-4 col-sm-6 col-xs-12 feature-item">
       <a href="/docs/concepts/data_model/">
         <h2><i class="fa fa-flask"></i> Dimensional data</h2>
         <p>Open-Falcon implements a highly dimensional data model. Time series are identified by a metric name and a set of key-value pairs.</p>
       </a>
     </div>
-    <div class="col-md-3 col-sm-6 col-xs-12 feature-item">
+    <div class="col-md-4 col-sm-6 col-xs-12 feature-item">
       <a href="/docs/querying/basics/">
         <h2><i class="fa fa-search"></i> Powerful queries</h2>
         <p>A flexible query language allows slicing and dicing of collected time series data in order to generate ad-hoc graphs, tables, and alerts.</p>
       </a>
     </div>
-    <div class="col-md-3 col-sm-6 col-xs-12 feature-item">
+    <div class="col-md-4 col-sm-6 col-xs-12 feature-item">
       <a href="/docs/visualization/grafana/">
         <h2><i class="fa fa-line-chart"></i> Great visualization</h2>
         <p>Open-Falcon has multiple modes for visualizing data: a built-in expression browser, Grafana integration, and a console template language.</p>
       </a>
     </div>
-    <div class="col-md-3 col-sm-6 col-xs-12 feature-item">
+  </div>
+
+  <div class="row">
+    <div class="col-md-4 col-sm-6 col-xs-12 feature-item">
       <a href="/docs/operating/storage/">
         <h2><i class="fa fa-database"></i> Efficient storage</h2>
         <p>Open-Falcon stores time series in memory and on local disk in an efficient custom format. Scaling is achieved by functional sharding and federation.</p>
       </a>
     </div>
-  </div>
-
-  <div class="row">
-    <div class="col-md-3 col-sm-6 col-xs-12 feature-item">
+    <div class="col-md-4 col-sm-6 col-xs-12 feature-item">
       <a href="/docs/operating/configuration/">
         <h2><i class="fa fa-cog"></i> Simple operation</h2>
         <p>Each server is independent for reliability, relying only on local storage. Written in Go, all binaries are statically linked and easy to deploy.</p>
       </a>
     </div>
-    <div class="col-md-3 col-sm-6 col-xs-12 feature-item">
+    <div class="col-md-4 col-sm-6 col-xs-12 feature-item">
       <a href="/docs/alerting/rules/">
         <h2><i class="fa fa-warning"></i> Precise alerting</h2>
         <p>Alerts are defined based on Open-Falcon's flexible query language and maintain dimensional information. An alertmanager handles notifications and silencing.</p>
