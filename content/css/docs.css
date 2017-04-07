@@ -8,18 +8,17 @@ body {
 }
 
 .navbar-brand {
-  margin-top: 4px;
-  font-family: Lato, sans-serif;
-  font-size: 26px;
-  font-weight: 300;
-  color: #aaa;
+  color: transparent;
+  padding: 0 !important;
+  height: auto !important;
+}
+
+a.navbar-brand {
+  color: transparent !important;
 }
 
 .navbar-brand img {
-  height: 30px;
   display: inline;
-  margin-top: -5px;
-  margin-right: 3px;
 }
 
 .navbar-toggle {
