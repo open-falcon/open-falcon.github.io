@@ -16,6 +16,7 @@ body {
   color: transparent;
   padding: 0 !important;
   height: auto !important;
+  margin-top: 10px;
 }
 
 a.navbar-brand {
@@ -61,7 +62,7 @@ a.navbar-brand {
 }
 
 .jumbotron {
-  // background-color: #e6522c;
+  // background-color: #476685;
   background-image: -webkit-linear-gradient(left, #31DAFF 0%, #538DFF 100%);
   background-image: -o-linear-gradient(left, #31DAFF 0%, #538DFF 100%);
   background-image: linear-gradient(to right, #31DAFF 0%, #538DFF 100%);
@@ -286,13 +287,13 @@ footer {
 }
 
 .side-nav .nav-header a, .side-nav .nav-header {
-  color: #e6522c;
+  color: #476685;
   text-transform: uppercase;
   text-decoration: none;
 }
 
 .side-nav ul.active li.active {
-  border-left: 3px solid #e6522c;
+  border-left: 3px solid #476685;
   margin-left: -2px;
   font-weight: bold;
 }
@@ -311,14 +312,14 @@ footer {
 }
 
 .doc-content > h1 {
-  color: #e6522c;
+  color: #476685;
   font-size: 30px;
   text-transform: uppercase;
   margin: 40px 0 10px 0;
 }
 
 .doc-content > h1 a {
-  color: #e6522c;
+  color: #476685;
 }
 
 .doc-content.blog > h1 {
@@ -332,12 +333,12 @@ footer {
 }
 
 .doc-content > h2 {
-  color: #e6522c;
+  color: #476685;
   font-size: 22px;
 }
 
 .doc-content > h2 code {
-  color: #e6522c;
+  color: #476685;
   background: none;
 }
 
@@ -422,7 +423,7 @@ footer {
 
 pre {
   border: 1px solid #ddd;
-  border-left: 4px solid #e6522c;
+  border-left: 4px solid #476685;
   border-radius: 0;
   font-family: "Courier New", Monaco, Menlo, Consolas, monospace;
   background-color: #f5f5f5;
@@ -449,6 +450,11 @@ article {
 }
 
 @media (min-width: 768px) {
+  .navbar-nav {
+    background-size: cover;
+    margin-top: 0;
+    margin-bottom: 0;
+  }
   .navbar-nav > li > a {
     padding-top: 30px !important;
     padding-bottom: 30px !important;
