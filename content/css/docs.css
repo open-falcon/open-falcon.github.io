@@ -231,8 +231,6 @@ a.navbar-brand {
 }
 
 footer {
-  font-size: 12px;
-  color: #333;
 }
 
 /* Downloads related styles. */
@@ -307,15 +305,15 @@ footer {
 }
 
 .doc-content p, .doc-content.ul, .doc-content .alert {
-  margin: 15px 0 15px 0;
-  line-height: 1.5;
+  margin: 1.5rem 0 1.5rem 0;
+  line-height: 1.6;
 }
 
 .doc-content > h1 {
   color: #476685;
-  font-size: 30px;
+  font-size: 3rem;
   text-transform: uppercase;
-  margin: 40px 0 10px 0;
+  margin: 3rem 0 1rem 0;
 }
 
 .doc-content > h1 a {
