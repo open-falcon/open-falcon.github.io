@@ -132,10 +132,11 @@ a.navbar-brand {
   font-family: 'Lato', sans-serif;
   font-weight: 300;
   cursor: pointer;
+  text-align: center;
 }
 
 .feature-item:hover {
-  background-color: #fad9d1;
+  background-color: rgb(49, 122,255);
   border-radius: 3px;
 }
 
@@ -164,7 +165,14 @@ a.navbar-brand {
   line-height: 1.8em;
   text-rendering: optimizeLegibility;
   -webkit-font-smoothing: antialiased;
-  color: #111;
+  color: #1A2233;
+  margin-bottom: 20px;
+}
+
+.feature-item:hover h2,
+.feature-item:hover p,
+.feature-item:hover .fa {
+  color: #fff;
 }
 
 .top-hr {
@@ -301,7 +309,8 @@ footer {
 }
 
 .doc-content {
-  font-size: 16px;
+  // font-size: 16px;
+  font-weight: 400;
 }
 
 .doc-content p, .doc-content.ul, .doc-content .alert {
