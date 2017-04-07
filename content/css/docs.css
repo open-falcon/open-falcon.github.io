@@ -1,5 +1,9 @@
 body {
   font-family: 'Open Sans', 'Helvetica Neue', Helvetica, sans-serif;
+  color: #6C7891;
+}
+
+.background-color--dark {
   background: #697784 !important;
 }
 
