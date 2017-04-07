@@ -450,8 +450,12 @@ article {
 
 @media (min-width: 768px) {
   .navbar-nav > li > a {
-      padding-top: 30px !important;
-      padding-bottom: 30px !important;
+    padding-top: 30px !important;
+    padding-bottom: 30px !important;
+  }
+  .navbar-nav > li > a.icon-2x  {
+    padding-top: 24px !important;
+    padding-bottom: 24px !important;
   }
 }
 
