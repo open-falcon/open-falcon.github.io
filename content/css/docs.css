@@ -3,6 +3,10 @@ body {
   color: #6C7891;
 }
 
+img {
+  max-width: 100%;
+}
+
 .background-color--dark {
   background: #697784 !important;
 }
@@ -474,10 +478,23 @@ article {
 
 .container-card {
   margin-top: -120px;
-  /* Rectangle 8: */
   background: #FFFFFF;
   box-shadow: 0 4px 12px 0 rgba(0,0,0,0.10);
   position: relative;
   z-index: 999;
   padding: 30px 40px;
+}
+
+.logos {
+  display: inline-block !important;
+  margin: 20px;
+  height: 72px;
+}
+
+.logos a {
+  display: block;
+}
+
+.logos img {
+  max-width: 100%;
 }
