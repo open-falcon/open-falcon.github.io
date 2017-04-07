@@ -1,6 +1,6 @@
 <% render 'default' do %>
 <div class="row">
-  <div class="col-md-9 blog doc-content">
+  <div class="col-md-9 jobs doc-content">
     <h1><%= item[:title] %></h1>
     <aside>Posted at: <%= get_pretty_date(item) %> by <%= item[:author_name]%></aside>
     <article class="doc-content">
@@ -24,6 +24,6 @@
 -->
   </div>
 
-  <%= render 'blog_sidebar' %>
+  <%= render 'jobs_sidebar' %>
 </div>
 <% end %>

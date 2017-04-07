@@ -54,6 +54,8 @@ compile '*' do
     filter :toc, style: item[:toc]
     if item[:kind] == 'article'
       layout 'blog'
+    elsif item[:kind] == 'jobs'
+      layout 'jobs'
     else
       layout 'docs'
     end
