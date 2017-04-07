@@ -498,3 +498,7 @@ article {
 .logos img {
   max-width: 100%;
 }
+
+.doc-content {
+  padding-top: 3em;
+}
