@@ -1,1 +1,18 @@
-*.swp
+
+# For projects using nanoc (http://nanoc.ws/)
+
+# Default location for output, needs to match output_dir's value found in config.yaml
+output/
+
+# Temporary file directory
+tmp/
+downloads/
+
+# Crash Log
+crash.log
+
+# OS X file
+static/.DS_Store
+
+prometheus_rsa
+
