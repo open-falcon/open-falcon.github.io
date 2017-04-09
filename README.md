@@ -1,3 +1,3 @@
-# open-falcon.github.io
 
-https://open-falcon.github.io
+This repository is automatically generated from
+https://github.com/open-falcon/open-falcon.
