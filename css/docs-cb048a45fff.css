@@ -271,7 +271,41 @@ a.navbar-brand {
 	text-decoration: underline;
 }
 
+.back-to-top {
+    position: fixed;
+    z-index: 500;
+    right: 5px;
+    bottom: 24px;
+    -webkit-transition: -webkit-transform 0.5s;
+    -moz-transition: -moz-transform 0.5s;
+    -o-transition: -o-transform 0.5s;
+    transition: transform 0.5s;
+    -webkit-transform: translate3d(-50%, 72px, 0);
+    -moz-transform: translate3d(-50%, 72px, 0);
+    -ms-transform: translate3d(-50%, 72px, 0);
+    -o-transform: translate3d(-50%, 72px, 0);
+    transform: translate3d(-50%, 72px, 0);
+    width: 44px;
+    height: 44px;
+    background: #1989fa url(/assets/images/arrow-up.png) no-repeat 50% 50%;
+    background-size: 16px 16px;
+}
 
+.back-to-top.is-hide {
+    -webkit-transform: translate3d(-50%, 72px, 0);
+    -moz-transform: translate3d(-50%, 72px, 0);
+    -ms-transform: translate3d(-50%, 72px, 0);
+    -o-transform: translate3d(-50%, 72px, 0);
+    transform: translate3d(-50%, 72px, 0);
+}
+
+.back-to-top.is-active {
+    -webkit-transform: translate3d(-50%, 0, 0);
+    -moz-transform: translate3d(-50%, 0, 0);
+    -ms-transform: translate3d(-50%, 0, 0);
+    -o-transform: translate3d(-50%, 0, 0);
+    transform: translate3d(-50%, 0, 0);
+}
 /* Downloads related styles. */
 
 .download h2 {
@@ -500,7 +534,7 @@ article {
     background: #FFFFFF;
     box-shadow: 0 4px 12px 0 rgba(0, 0, 0, 0.10);
     position: relative;
-    z-index: 999;
+    z-index: 200;
     padding: 30px 40px;
 }
 

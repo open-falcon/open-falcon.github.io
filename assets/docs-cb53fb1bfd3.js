@@ -54,4 +54,19 @@ $(document).ready(function() {
     $(this).parents('.btn-group').find('button .caption').text($(this).text());
     selectDownloads();
   });
+  $(window).scroll(function(){
+	  if($(this).scrollTop()>10){
+		  $('.back-to-top').removeClass('is-hide').addClass('is-active');
+
+	  }else{
+		  $('.back-to-top').removeClass('is-active').addClass('is-hide');
+
+	  }
+  });
+  $('.back-to-top').click(function(){
+	  $('html,body').scrollTop({
+		  top:0
+	  });
+	  $('.back-to-top').removeClass('is-active').addClass('is-hide');
+  });
 });
