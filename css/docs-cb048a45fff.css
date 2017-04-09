@@ -49,7 +49,8 @@ a.navbar-brand {
 }
 
 .navbar-inverse .navbar-nav>li>a {
-    color: rgba(255, 255, 255, .7)
+    color: rgba(255, 255, 255, .7);
+    cursor: pointer;
 }
 
 .navbar-toggle {
@@ -250,7 +251,25 @@ a.navbar-brand {
     height: 64px;
 }
 
-footer {}
+.footer {
+    padding: 50px 0;
+    color: #fff;
+    text-align: center;
+    position: relative;
+    overflow: hidden;
+    font-size: 14px;
+    background: #333;
+	font-weight: 500;
+}
+.footer p{
+	line-height: 23px;
+	height: 23px;
+}
+.footer a {
+    font-weight: 700;
+    color: #fff;
+	text-decoration: underline;
+}
 
 
 /* Downloads related styles. */
@@ -489,14 +508,16 @@ article {
     display: inline-block !important;
     margin: 20px;
     height: 72px;
-	transition: all 0.3s ease;
-	filter: grayscale(100%);
-	opacity: 0.66;
+    transition: all 0.3s ease;
+    filter: grayscale(100%);
+    opacity: 0.66;
 }
-.logos:hover{
-	filter: none;
-	opacity: 1;
+
+.logos:hover {
+    filter: none;
+    opacity: 1;
 }
+
 .logos a {
     display: block;
 }
