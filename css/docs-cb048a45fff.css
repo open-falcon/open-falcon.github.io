@@ -11,7 +11,24 @@ img {
     border: #eee;
 }
 
-button.navbar-toggle:hover {
+strong, em {
+    font-style: normal;
+}
+
+ul {
+    -webkit-margin-before: 0;
+    -webkit-margin-end: 0;
+}
+
+em {
+    background: no-repeat 0 0;
+    border: 0;
+    margin: 0;
+    padding: 0;
+    vertical-align: baseline;
+}
+
+button.navbar-toggle:hover, button.navbar-toggle:active, button.navbar-toggle:focus {
     background-color: transparent !important;
 }
 
@@ -21,14 +38,14 @@ button.navbar-toggle:hover {
 
 .navbar {
     margin-bottom: 0;
-    min-height: 60px;
+    min-height: 90px;
 }
 
 .navbar-brand {
     color: transparent;
     padding: 0 !important;
     height: auto !important;
-    margin-top: 10px;
+    margin-top: 15px;
 }
 
 .navbar-inverse .navbar-toggle {
@@ -58,13 +75,15 @@ a.navbar-brand {
 }
 
 .navbar-jumbotron .navbar {
-    min-height: 80px;
+    min-height: 90px;
+    height: 90px;
+    margin: 0;
 }
 
 .navbar-jumbotron .navbar-brand {
-    margin-top: 10px;
+    margin-top: 15px;
     width: 200px;
-    margin-left: 10px;
+    margin-left: 15px;
 }
 
 .main-nav {
@@ -74,14 +93,47 @@ a.navbar-brand {
     text-transform: uppercase;
     background: url("/assets/main-nav-bg.svg") left center no-repeat;
     padding-left: 160px;
+    height: 90px;
+}
+
+.wrapper {
+    margin-top: 90px;
+}
+
+.wrapper .customer {
+    width: 100%;
+    margin: 0 auto;
+    padding: 30px 0;
+    background: #FFF;
+    border-top: solid #3aa0ff 4px;
+    text-align: center;
+}
+
+.customer .title {
+    font-size: 32px;
+    text-align: center;
+    color: #333940;
+}
+
+.customer blockquote {
+    display: block;
+    margin: 0 auto;
+    max-width: 805px;
+    border: 0;
+    padding: 5px 10px;
+    color: #333940;
+    font-weight: 200;
+}
+
+.customer p {
+    margin: 0 0 25px;
+    color: #333940;
 }
 
 .jumbotron {
-    // background-color: #476685;
     background-image: -webkit-linear-gradient(left, #31DAFF 0%, #538DFF 100%);
     background-image: -o-linear-gradient(left, #31DAFF 0%, #538DFF 100%);
     background-image: linear-gradient(to right, #31DAFF 0%, #538DFF 100%);
-    // background-image: url("/assets/jumbotron-background-cb04e0f2d6d.png");
     text-align: center;
     font-family: Lato, sans-serif;
     text-shadow: rgba(0, 0, 0, 0.2) 0px 2px 0px;
@@ -259,16 +311,18 @@ a.navbar-brand {
     overflow: hidden;
     font-size: 14px;
     background: #333;
-	font-weight: 500;
+    font-weight: 500;
 }
-.footer p{
-	line-height: 23px;
-	height: 23px;
+
+.footer p {
+    line-height: 23px;
+    height: 23px;
 }
+
 .footer a {
     font-weight: 700;
     color: #fff;
-	text-decoration: underline;
+    text-decoration: underline;
 }
 
 .back-to-top {
@@ -306,6 +360,8 @@ a.navbar-brand {
     -o-transform: translate3d(-50%, 0, 0);
     transform: translate3d(-50%, 0, 0);
 }
+
+
 /* Downloads related styles. */
 
 .download h2 {
@@ -511,6 +567,22 @@ aside {
 
 article {
     margin: 10px 0 60px 0;
+}
+
+@media (min-width:768px) and (max-width:1000px) {
+    .main-nav {
+        padding-left: 0;
+    }
+}
+
+@media (max-width:768px) {
+    .navbar-collapse {
+        background-image: linear-gradient(90deg, #31D9FF 0%, #3E8DFF 38%, #548DFF 100%);
+        border-color: transparent;
+    }
+    .navbar-brand img {
+        padding-left: 20px;
+    }
 }
 
 @media (min-width: 768px) {
