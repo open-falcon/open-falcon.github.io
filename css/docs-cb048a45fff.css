@@ -709,3 +709,10 @@ margin-right: 15px;
 .documentation .docs-grid-block a{
 	color: #0070bf;
 }
+.documentation .docs-content{
+	border-left: 1px solid #eee;s
+}
+.documentation .side-nav-col-wrapper{
+	padding-top: 25px;
+	padding-left: 50px;
+}
