@@ -20,6 +20,7 @@ $(document).ready(function() {
     $(this).replaceWith(link);
   });
 
+
   var selected = function(value, want, group) {
     switch(want) {
     case 'all':

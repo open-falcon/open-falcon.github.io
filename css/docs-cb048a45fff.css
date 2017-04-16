@@ -652,3 +652,60 @@ article {
     padding: 15px;
     white-space: pre;
 }
+.documentation .page-header {
+    background-color: #fdfdfd;
+    border-bottom: 1px solid #ebebeb;
+    padding: 50px 0;
+	margin: 0;
+}
+.documentation .page-header .page-header-icon {
+    width: 64px;
+    vertical-align: middle;
+    display: inline-block;
+    margin-right: 15px;
+}
+.documentation .page-header .page-header-icon .fa-5 {
+	max-width: 100%;
+	font-size: 72px;
+	height: auto;
+	display: block;
+	color: #4f565a;
+}
+.documentation .page-header .page-header-title {
+    display: inline-block;
+    vertical-align: middle;
+    margin-right: 20px;
+	color: #262e33;
+}
+.documentation .page-header h1,.documentation  .page-header p {
+    margin: 0;
+}
+.documentation .page-header p {
+    margin-top: 5px;
+	color: #505659;
+}
+.documentation .docs-grid-block:nth-child(odd) {
+    padding-right: 25px;
+}
+.documentation .docs-grid-block:nth-child(even) {
+    padding-left: 25px;
+}
+.documentation .docs-grid-block h3 {
+    margin-top: 0;
+    margin-bottom: .7em;
+}
+
+.documentation .docs-grid-block {
+    float: left;
+    height: 250px;
+    width: 50%;
+    border-bottom: 1px solid #eee;
+    box-sizing: border-box;
+    padding-top: 40px;
+}
+.documentation .docs-grid-block .fa-file-text{
+margin-right: 15px;
+}
+.documentation .docs-grid-block a{
+	color: #0070bf;
+}
