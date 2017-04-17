@@ -115,6 +115,8 @@ a.navbar-brand {
     color: #333940;
     margin: 20px 0 40px 0;
     color: #6C7891;
+	font-weight: 300;
+	font-family: 'Lato', sans-serif;
 }
 
 .trust-customer blockquote {
@@ -153,12 +155,12 @@ a.navbar-brand {
 }
 
 .title-block h4 {
-    letter-spacing: .1em;
     margin: 0;
     font-size: 36px;
     line-height: 1.3;
-    font-weight: 300;
     color: #6c7891;
+	font-weight: 300 !important;
+	font-family: 'Lato', sans-serif;
 }
 
 @media (min-width: 768px) {
