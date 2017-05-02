@@ -33,6 +33,7 @@ github_pages_export: compile
 
 github_pages_push:
 	cd output && \
+	cp ../gh-page/* . && \
 	git push -f git@github.com:open-falcon/open-falcon.github.io master
 
 .PHONY: compile deploy github_pages_export github_pages_push
