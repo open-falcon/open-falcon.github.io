@@ -1,3 +1,4 @@
+
 ## Prerequisites
 
 You need to have a working Ruby environment set up and then install the
@@ -38,3 +39,4 @@ You should now be able to view the generated site at
 ## License
 
 Apache License 2.0, see [LICENSE](LICENSE).
+
