@@ -3,6 +3,10 @@
 You need to have a working Ruby environment set up and then install the
 necessary gems:
 
+```
+gem install bundler
+```
+
 ```bash
 cd docs
 bundle

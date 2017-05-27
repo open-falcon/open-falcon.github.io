@@ -14,3 +14,7 @@ crash.log
 static/.DS_Store
 
 prometheus_rsa
+
+vendor/
+.bundle/
+*.swp
