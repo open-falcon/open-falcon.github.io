@@ -18,3 +18,4 @@ prometheus_rsa
 vendor/
 .bundle/
 *.swp
+.DS_Store
