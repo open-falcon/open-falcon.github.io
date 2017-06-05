@@ -40,6 +40,10 @@ a.navbar-brand {
   color: rgba(255, 255, 255, .7)
 }
 
+.navbar-inverse .navbar-nav>.open>a, .navbar-inverse .navbar-nav>.open>a:hover, .navbar-inverse .navbar-nav>.open>a:focus {
+    background-color: rgba(44,103,255,.7)
+}
+
 .navbar-toggle {
   margin-top: 22px;
 }
@@ -61,7 +65,7 @@ a.navbar-brand {
   font-family: 'Lato', sans-serif;
   font-size: 16px;
   text-transform: uppercase;
-  background: url("/assets/main-nav-bg.svg") left center no-repeat;
+  //background: url("/assets/main-nav-bg.svg") left center no-repeat;
   padding-left: 160px;
 }
 
@@ -135,12 +139,10 @@ a.navbar-brand {
 .feature-item {
   font-family: 'Lato', sans-serif;
   font-weight: 300;
-  cursor: pointer;
   text-align: center;
 }
 
 .feature-item:hover {
-  background-color: rgb(49, 122,255);
   border-radius: 3px;
 }
 
@@ -173,11 +175,6 @@ a.navbar-brand {
   margin-bottom: 20px;
 }
 
-.feature-item:hover h2,
-.feature-item:hover p,
-.feature-item:hover .fa {
-  color: #fff;
-}
 
 .top-hr {
   margin-top: 30px;
@@ -488,7 +485,7 @@ article {
 .logos {
   display: inline-block !important;
   margin: 20px;
-  height: 72px;
+  height: 50px;
 }
 
 .logos a {
@@ -496,7 +493,7 @@ article {
 }
 
 .logos img {
-  max-width: 150px;
+  max-width: 130px;
 }
 
 .doc-content {
