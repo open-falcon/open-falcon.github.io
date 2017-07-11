@@ -484,7 +484,7 @@ article {
 
 .logos {
   display: inline-block !important;
-  margin: 20px;
+  margin: 10px;
   height: 50px;
 }
 
@@ -493,7 +493,7 @@ article {
 }
 
 .logos img {
-  max-width: 130px;
+  max-width: 80px;
 }
 
 .doc-content {
