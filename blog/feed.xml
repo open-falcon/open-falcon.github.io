@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <id>https://open-falcon.io/</id>
+  <title>Open-Falcon Blog</title>
+  <updated>2017-06-01T00:00:00Z</updated>
+  <link rel="alternate" href="https://open-falcon.io/"/>
+  <link rel="self" href="https://open-falcon.io/blog/feed.xml"/>
+  <author>
+    <name>© Open-Falcon Authors 2017</name>
+    <uri>https://open-falcon.io/blog/</uri>
+  </author>
+  <icon>https://open-falcon.io/assets/favicons/favicon.ico</icon>
+  <logo>https://open-falcon.io/assets/openfalcon_logo.png</logo>
+  <entry>
+    <id>tag:open-falcon.io,2017-06-01:/blog/2017/06/02/open-falcon-user-cases/</id>
+    <title type="html">Open-Falcon user cases</title>
+    <published>2017-06-01T00:00:00Z</published>
+    <updated>2017-06-01T00:00:00Z</updated>
+    <author>
+      <name>Lai Wei</name>
+      <uri>https://open-falcon.io/blog/</uri>
+    </author>
+    <link rel="alternate" href="https://open-falcon.io/blog/2017/06/02/open-falcon-user-cases/"/>
+    <content type="html">&lt;ul&gt;
+&lt;li&gt;&lt;a href="http://mp.weixin.qq.com/s/D2U0BPJNFeFgrNQFQSCLwg"&gt;Open-Falcon in SREcon17 Asia&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://mp.weixin.qq.com/s?__biz=MjM5NjQ5MTI5OA==&amp;amp;mid=2651746066&amp;amp;idx=2&amp;amp;sn=ebb37cd37c46b74e45cf89235b8dd8ed&amp;amp;chksm=bd12b65f8a653f49ed765fe556a2c8c8bc9097bc5d59cd5d0feba6c9f46a8e34e06a6e094033&amp;amp;mpshare=1&amp;amp;scene=1&amp;amp;srcid=05310pkSl6CeiR1BksP00X9R#rd"&gt;Mt-Falcon——Open-Falcon在美团点评的应用与实践&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://mp.weixin.qq.com/s?__biz=MzIyNzUwMjM2MA==&amp;amp;mid=2247483940&amp;amp;idx=1&amp;amp;sn=87fcee7d4dce035f1d07de58be92bc5e&amp;amp;chksm=e8617253df16fb45b07fb037ffc03a7d8285554609d97ffac2ce9ee7bda130b662598e8f28a1&amp;amp;mpshare=1&amp;amp;scene=1&amp;amp;srcid=0531womMvEZ7V1A7ZgafX6Cv#rd"&gt;360监控系统wonder简介&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://mp.weixin.qq.com/s?__biz=MzIzNjUxMzk2NQ==&amp;amp;mid=2247485038&amp;amp;idx=1&amp;amp;sn=02c657daab4307c9f6e72f7aaf8b5390&amp;amp;chksm=e8d7f9acdfa070ba3a8d3015ccaea75ec147e777cc831f7211ec9a2ea10edc68a1ba7974eef2&amp;amp;mpshare=1&amp;amp;scene=1&amp;amp;srcid=0531RIuEctoZFhZfGN9WbzHW#rd"&gt;58集团监控业务实践：将网站运行信息透明化&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://mp.weixin.qq.com/s?__biz=MzA4Nzg5Nzc5OA==&amp;amp;mid=404166569&amp;amp;idx=1&amp;amp;sn=cc7c715e1e3829ea239a02eb921c42b4&amp;amp;mpshare=1&amp;amp;scene=1&amp;amp;srcid=0531GP6SRZKEF0gqwiCG7uL0#rd"&gt;Octopux：可支持万台服务器的带宽监测系统&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+</content>
+  </entry>
+  <entry>
+    <id>tag:open-falcon.io,2017-06-01:/blog/2017/06/01/open-falcon-v0_2-release/</id>
+    <title type="html">falcon-plus(v0.2)changelog &amp;&amp; upgrade manual</title>
+    <published>2017-06-01T00:00:00Z</published>
+    <updated>2017-06-01T00:00:00Z</updated>
+    <author>
+      <name>Lai Wei</name>
+      <uri>https://open-falcon.io/blog/</uri>
+    </author>
+    <link rel="alternate" href="https://open-falcon.io/blog/2017/06/01/open-falcon-v0_2-release/"/>
+    <content type="html">&lt;ul&gt;
+&lt;li&gt;&lt;a href="http://www.jianshu.com/p/6fb2c2b4d030"&gt;Falcon-Plus(v0.2)Changelog &amp;amp;&amp;amp; Upgrade manual&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+</content>
+  </entry>
+  <entry>
+    <id>tag:open-falcon.io,2017-06-01:/blog/2017/01/01/getting-started/</id>
+    <title type="html">Getting started</title>
+    <published>2017-06-01T00:00:00Z</published>
+    <updated>2017-06-01T00:00:00Z</updated>
+    <author>
+      <name>Lai Wei</name>
+      <uri>https://open-falcon.io/blog/</uri>
+    </author>
+    <link rel="alternate" href="https://open-falcon.io/blog/2017/01/01/getting-started/"/>
+    <content type="html">&lt;ul&gt;
+&lt;li&gt;&lt;a href="https://github.com/open-falcon/falcon-plus/blob/master/README.md"&gt;Getting started&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+</content>
+  </entry>
+  <entry>
+    <id>tag:open-falcon.io,2016-03-06:/blog/2016/03/06/open-falcon-release/</id>
+    <title type="html">Open-Falcon v0.1.0 Release</title>
+    <published>2016-03-06T00:00:00Z</published>
+    <updated>2016-03-06T00:00:00Z</updated>
+    <author>
+      <name>Lai Wei</name>
+      <uri>https://open-falcon.io/blog/</uri>
+    </author>
+    <link rel="alternate" href="https://open-falcon.io/blog/2016/03/06/open-falcon-release/"/>
+    <content type="html">&lt;ul&gt;
+&lt;li&gt;&lt;a href="http://www.jianshu.com/p/7751eb324a51"&gt;Open-Falcon v0.1 Release&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+</content>
+  </entry>
+</feed>
+
