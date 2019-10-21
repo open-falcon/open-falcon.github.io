@@ -11,10 +11,6 @@ GEM
     cri (2.6.1)
       colored (~> 1.2)
     diff-lcs (1.2.5)
-    em-websocket (0.5.1)
-      eventmachine (>= 0.12.9)
-      http_parser.rb (~> 0.6.0)
-    eventmachine (1.0.8)
     ffi (1.9.6)
     formatador (0.2.5)
     guard (2.6.1)
@@ -23,15 +19,10 @@ GEM
       lumberjack (~> 1.0)
       pry (>= 0.9.12)
       thor (>= 0.18.1)
-    guard-livereload (2.3.1)
-      em-websocket (~> 0.5)
-      guard (~> 2.0)
-      multi_json (~> 1.8)
     guard-nanoc (1.0.2)
       guard (>= 1.8.0)
       nanoc (>= 3.6.3)
     hitimes (1.2.2)
-    http_parser.rb (0.6.0)
     kramdown (1.4.2)
     listen (2.7.11)
       celluloid (>= 0.15.2)
@@ -40,7 +31,6 @@ GEM
     lumberjack (1.0.9)
     method_source (0.8.2)
     mini_portile (0.6.0)
-    multi_json (1.11.2)
     nanoc (3.7.3)
       cri (~> 2.3)
     nanoc-cachebuster (0.3.1)
@@ -99,3 +89,6 @@ DEPENDENCIES
   rb-inotify
   redcarpet
   rspec
+
+BUNDLED WITH
+   1.14.6

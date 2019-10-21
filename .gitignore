@@ -13,7 +13,7 @@ crash.log
 # OS X file
 static/.DS_Store
 
-prometheus_rsa
+*_rsa
 
 vendor/
 .bundle/

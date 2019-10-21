@@ -4,7 +4,7 @@ require 'helpers/download'
 describe Downloads::Asset do
   let(:asset) do
     Downloads::Asset.new({
-      'name' => ' prometheus-1.2.0.freebsd-armv5.tar.gz',
+      'name' => ' ',
     })
   end
 
