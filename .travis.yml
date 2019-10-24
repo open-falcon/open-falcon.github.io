@@ -1,5 +1,7 @@
 sudo: false
 language: ruby
+rvm:
+    - 2.4.1
 branches:
   only:
   - source
