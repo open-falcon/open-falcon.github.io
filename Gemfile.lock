@@ -69,7 +69,7 @@ GEM
     thor (0.19.1)
     timers (4.0.1)
       hitimes
-    yajl-ruby (1.3.0)
+    yajl-ruby (1.1.0)
 
 PLATFORMS
   ruby
@@ -79,6 +79,7 @@ DEPENDENCIES
   builder
   guard-livereload
   guard-nanoc
+  json
   kramdown
   nanoc
   nanoc-cachebuster
