@@ -1,5 +1,6 @@
 source 'https://rubygems.org'
 
+gem 'json'
 gem 'nanoc'
 gem 'adsf'
 gem 'kramdown'
